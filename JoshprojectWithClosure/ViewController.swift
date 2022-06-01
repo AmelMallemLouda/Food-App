@@ -58,13 +58,10 @@ extension ViewController : UITableViewDelegate , UITableViewDataSource{
                         cell?.imgView?.image = UIImage(data: data)
                     }
                 }
-               
-                    
-                
+ 
             }
         }
-       
-        
+ 
         return cell ?? TableViewCell()
         
     }
