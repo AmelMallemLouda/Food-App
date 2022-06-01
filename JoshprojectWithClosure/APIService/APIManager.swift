@@ -12,8 +12,7 @@ class APIManager{
     private init(){}
     
     var closure : (( Data? , URLResponse? , Error?) -> ())?
-    
-    
+  
     func getDataFromAPIHandler(){
         
         guard  let url = URL.init(string:  "https://www.themealdb.com/api/json/v1/1/search.php?f=s") else{return}
